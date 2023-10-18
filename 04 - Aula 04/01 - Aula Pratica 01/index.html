@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo da Vinci</title>
+<style>
+    body{
+        margin: 0;
+    }
+
+    .container {
+        display: grid;
+    }
+
+    header {
+        grid-column-start: 1;
+        grid-column-end: 12;
+        background-color: #506E6A;
+    }
+
+    .menu {
+        grid-column-start: 6;
+        grid-column-end: 12;
+        justify-content: center;
+        gap: 20px
+    }
+
+    .imagem_leo {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .principal {
+        grid-column-start: 4;
+        grid-column-end: 12;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+    }
+
+    .footer {
+        grid-column-start: 1;
+        grid-column-end: 12;
+        background-color: #506E6A;
+        color: white;
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        color: #506E6A;
+    }
+
+    a,
+    a:link{
+        text-decoration: none;
+        padding: 8px 16px;
+        border: solid #506E6A 1px;
+    }
+
+    li {
+        float: left;
+    }
+
+    a:hover {
+        background-color: #506E6A;
+        color: white;
+    }
+
+    /* Média query para dispositvios móveis */
+    @media only screen and (max-width: 767px) {
+        .wrapper {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+
+        .principal {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+    }
+
+</style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Biografia do Leonardo da Vinci</h1>
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Biografia</a></li>
+            <li><a href="obras.html">Obras</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+
+        <aside class="imagem_leo">
+            <img src="leonardo-da-vinci.jpeg">
+            <div class="infos">
+                <p><strong>Ocupação:</strong> Pintor Italiano</p>
+                <p><strong>Data do Nascimento:</strong> 15/04/1452</p>
+                <p><strong>Data do Falecimento:</strong> 02/05/1519 (aos 67 anos)</p>
+            </div>
+        </aside>
+
+        <section class="principal">
+            <h1>Leonardo da Vinci</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolorem culpa voluptate dolores facilis deleniti iste ipsam in, molestias necessitatibus
+                aspernatur maxime exercitationem saepe consectetur, nesciunt vitae? Laboriosam placeat quo non aliquam inventore suscipit maxime nihil, eligendi magni
+                deleniti quam debitis alias dolorem et enim voluptate qui numquam, quae expedita ipsum voluptatem ullam dolorum. Debitis fugiat perferendis in qui, iusto
+                vitae sunt ipsum deleniti ad nulla. Consequuntur suscipit ducimus autem harum sapiente commodi. Necessitatibus dignissimos quo perferendis! Expedita odit
+                exercitationem unde. Delectus facere quibusdam commodi doloremque, enim vero obcaecati quae dolorum non assumenda rem vitae necessitatibus nulla
+                nostrum quasi sint blanditiis est aliquid animi odit esse inventore? Ipsam eveniet harum repudiandae hic est blanditiis vel et provident, earum, dolores ut
+                repellendus corporis delectus assumenda nam obcaecati! Saepe consectetur, perspiciatis molestiae voluptas repellat repudiandae nobis aspernatur consequuntur
+                et dolor dolorem veritatis provident incidunt quibusdam deleniti suscipit ipsa facilis doloremque, doloribus minima eveniet. Voluptatibus maiores
+                exercitationem illum quisquam iure quidem rem ratione, iusto, eius pariatur illo! Animi enim at ducimus! Natus voluptas ut sapiente commodi quos,
+                accusantium excepturi porro quis unde impedit inventore, nulla exercitationem vero quae sit, at cupiditate pariatur dolor hic laborum sunt assumenda. Veniam
+                labore doloribus at quasi esse!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolorem culpa voluptate dolores facilis deleniti iste ipsam in, molestias necessitatibus
+                aspernatur maxime exercitationem saepe consectetur, nesciunt vitae? Laboriosam placeat quo non aliquam inventore suscipit maxime nihil, eligendi magni
+                deleniti quam debitis alias dolorem et enim voluptate qui numquam, quae expedita ipsum voluptatem ullam dolorum. Debitis fugiat perferendis in qui, iusto
+                vitae sunt ipsum deleniti ad nulla. Consequuntur suscipit ducimus autem harum sapiente commodi. Necessitatibus dignissimos quo perferendis! Expedita odit
+                exercitationem unde. Delectus facere quibusdam commodi doloremque, enim vero obcaecati quae dolorum non assumenda rem vitae necessitatibus nulla
+                nostrum quasi sint blanditiis est aliquid animi odit esse inventore? Ipsam eveniet harum repudiandae hic est blanditiis vel et provident, earum, dolores ut
+                repellendus corporis delectus assumenda nam obcaecati! Saepe consectetur, perspiciatis molestiae voluptas repellat repudiandae nobis aspernatur consequuntur
+                et dolor dolorem veritatis provident incidunt quibusdam deleniti suscipit ipsa facilis doloremque, doloribus minima eveniet. Voluptatibus maiores
+                exercitationem illum quisquam iure quidem rem ratione, iusto, eius pariatur illo! Animi enim at ducimus! Natus voluptas ut sapiente commodi quos,
+                accusantium excepturi porro quis unde impedit inventore, nulla exercitationem vero quae sit, at cupiditate pariatur dolor hic laborum sunt assumenda. Veniam
+                labore doloribus at quasi esse!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolorem culpa voluptate dolores facilis deleniti iste ipsam in, molestias necessitatibus
+                aspernatur maxime exercitationem saepe consectetur, nesciunt vitae? Laboriosam placeat quo non aliquam inventore suscipit maxime nihil, eligendi magni
+                deleniti quam debitis alias dolorem et enim voluptate qui numquam, quae expedita ipsum voluptatem ullam dolorum. Debitis fugiat perferendis in qui, iusto
+                vitae sunt ipsum deleniti ad nulla. Consequuntur suscipit ducimus autem harum sapiente commodi. Necessitatibus dignissimos quo perferendis! Expedita odit
+                exercitationem unde. Delectus facere quibusdam commodi doloremque, enim vero obcaecati quae dolorum non assumenda rem vitae necessitatibus nulla
+                nostrum quasi sint blanditiis est aliquid animi odit esse inventore? Ipsam eveniet harum repudiandae hic est blanditiis vel et provident, earum, dolores ut
+                repellendus corporis delectus assumenda nam obcaecati! Saepe consectetur, perspiciatis molestiae voluptas repellat repudiandae nobis aspernatur consequuntur
+                et dolor dolorem veritatis provident incidunt quibusdam deleniti suscipit ipsa facilis doloremque, doloribus minima eveniet. Voluptatibus maiores
+                exercitationem illum quisquam iure quidem rem ratione, iusto, eius pariatur illo! Animi enim at ducimus! Natus voluptas ut sapiente commodi quos,
+                accusantium excepturi porro quis unde impedit inventore, nulla exercitationem vero quae sit, at cupiditate pariatur dolor hic laborum sunt assumenda. Veniam
+                labore doloribus at quasi esse!
+            </p>
+        </section>
+    </div>
+    <footer class="footer">
+        <h1>Desenvolvimento para fins educacionais</h1>
+    </footer>
+</body>
+</html>
